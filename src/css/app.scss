@@ -1,7 +1,18 @@
 // app global css in SCSS form
 // app global css in Sass form
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono');
-.fontmono { font-family: 'Noto', monospace; }
+@font-face {
+  font-family: "futura-medium";
+  src: local("futura-medium"),
+   url(../fonts/Futura-Round-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "futura-bold";
+  src: local("futura-bold"),
+   url(../fonts/Futura-Round-Bold.ttf) format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=PT+Serif&display=swap');
 .coverp {position: relative;}
 .coverc {position: absolute; z-index:5;}
 .flex-ab {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; align-items: baseline}

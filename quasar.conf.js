@@ -141,9 +141,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `conman`,
-        short_name: `conman`,
-        description: `consultation manager`,
+        name: `Alex Halme`,
+        short_name: `Alex Halme`,
+        description: `Alex Halme`,
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",
